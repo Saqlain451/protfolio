@@ -1,0 +1,88 @@
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.f-col{
+    flex-direction: column;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
+.f-col-reverse{
+    flex-direction: column-reverse;
+}
+
+.g-1{
+    gap: 1rem;
+}
+.g-2{
+    gap: 2rem;
+}
+.g-3{
+    gap: 3rem;
+}
+
+
+.grid{
+    display: grid;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+.grid-5{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+}
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+}
+.grid-7{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+}
+
