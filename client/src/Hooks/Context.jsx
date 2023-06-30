@@ -5,11 +5,11 @@ const appContext = createContext();
 const AppProvider = ({children})=>{
 
     const [show, isShow] = useState(false);
-    const navtoggle = () => {
+    const navToggle = () => {
       isShow(!show);
     };
     return(
-        <appContext.Provider value={{show, navtoggle}}>
+        <appContext.Provider value={{show, navToggle}}>
             {children}
         </appContext.Provider>
     )

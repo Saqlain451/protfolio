@@ -1,10 +1,9 @@
-import React from "react";
 import { LiaBarsSolid } from "react-icons/lia";
 import {NavLink} from 'react-router-dom'
 import { useGlobalHook } from "../Hooks/Context";
 const Navbar = () => {
 
-  const {show, navtoggle} = useGlobalHook()
+  const {show, navToggle} = useGlobalHook()
 
   return (
     <>
@@ -28,7 +27,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <button onClick={navtoggle}>
+        <button onClick={navToggle}>
           <LiaBarsSolid />
         </button>
       </header>
