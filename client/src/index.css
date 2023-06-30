@@ -22,6 +22,7 @@ html{
 
 body{
   background-color: var(--bg-color);
+  color: white;
 }
 
 .h-8{
@@ -35,6 +36,27 @@ body{
 
 .b-secondery{
   border: 2px solid rgba(255,255,255,0.2);
+}
+
+.hero-img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
   
+}
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+  transition: all 0.5s linear;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.hero-img:hover img{
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 

@@ -9,6 +9,13 @@
     color: rgba(255, 255, 255, 0.594);
 }
 
+.text-center{
+    text-align: center;
+}
+
+.lh-3{
+    line-height: 3rem;
+}
 
 /* --------------------- font size ------------------- */
 .fs-1{
