@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <h1 className="mt-3 fs-5 text-center">The Art of Web Development</h1>
-                <p className="fs-1-5 pl-10 pr-10 mt-2 text-center" style={{"line-height": "2.5rem"}}>
+                <p className="fs-1-5 pl-10 pr-10 mt-2 lh-2 text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
                     pariatur delectus voluptatum illo ipsum dolores consequuntur a
                     aliquid velit reiciendis commodi repudiandae ratione eveniet maxime
