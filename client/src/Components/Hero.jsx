@@ -1,12 +1,13 @@
 import React from "react";
-import {BsArrowDown} from 'react-icons/bs'
+import {BsArrowDown, BsBox, BsCodeSlash} from 'react-icons/bs'
+import {VscGlobe} from 'react-icons/vsc'
+import {BiGitBranch} from 'react-icons/bi'
 
 const Hero = () => {
 
     return (
         <>
             <section id="hero" className={"p-10"}>
-
                 <div className="d-flex center">
                     <div className="hero-img">
                         <img
@@ -27,6 +28,10 @@ const Hero = () => {
                 </p>
                 <p className={"text-center text-dark mt-4 fs-1-5"}>Scroll down</p>
                 <p className={"fs-4 text-green text-center mt-2 down-animation"}><BsArrowDown/></p>
+                <p className="icon-code side-animation"><BsCodeSlash/></p>
+                <p className="icon-globe side-animation"><VscGlobe/></p>
+                <p className="icon-git down-animation"><BiGitBranch/></p>
+                <p className="icon-box down-animation"><BsBox/></p>
             </section>
         </>
     );

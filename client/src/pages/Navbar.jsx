@@ -15,16 +15,16 @@ const Navbar = () => {
                 <nav>
                     <ul className="navbar-list">
                         <li>
-                            <a href={"#techstack"} className={"text-dark fs-1-5 navbar-link"}>TechStack</a>
+                            <a href={"#techstack"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>TechStack</a>
                         </li>
                         <li>
-                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"}>Projects</a>
+                            <a href={"#projects"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Projects</a>
                         </li>
                         <li>
-                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"}>Testimonial</a>
+                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Testimonial</a>
                         </li>
                         <li>
-                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"}>Contact</a>
+                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Contact</a>
                         </li>
                     </ul>
                 </nav>

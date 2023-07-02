@@ -12,7 +12,7 @@
 }
 
 .down-animation {
-    animation: down 1s linear infinite;
+    animation: down 2s linear infinite;
 }
 
 @keyframes down {
@@ -21,5 +21,18 @@
     }
     50% {
         transform: translateY(15%);
+    }
+}
+
+.side-animation {
+    animation: side 3s linear infinite;
+}
+
+@keyframes side {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(20%);
     }
 }

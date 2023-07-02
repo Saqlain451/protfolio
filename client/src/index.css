@@ -64,6 +64,44 @@ body {
     padding: 2% 0;
 }
 
+#hero{
+    position: relative;
+}
+#hero .icon-box{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 5rem;
+    color: var(--color-green);
+    z-index: -1;
+}
+
+#hero .icon-code{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    font-size: 5rem;
+    color: var(--color-green);
+    z-index: -1;
+}
+
+#hero .icon-git{
+    position: absolute;
+    bottom: 28%;
+    right: 30%;
+    font-size: 5rem;
+    color: var(--color-green);
+    z-index: -1;
+}
+
+#hero .icon-globe{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    font-size: 5rem;
+    color: var(--color-green);
+    z-index: -1;
+}
 
 
 
