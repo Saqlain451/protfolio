@@ -36,6 +36,10 @@
     flex-direction: column-reverse;
 }
 
+.g-0-5{
+    gap: 0.5rem;
+}
+
 .g-1 {
     gap: 1rem;
 }

@@ -48,7 +48,6 @@ body {
 .img-fluid {
     width: 100%;
     height: auto;
-    object-fit: contain;
 }
 
 .img-circle {
@@ -59,15 +58,16 @@ body {
     box-shadow: var(--box-shadow);
 }
 
-.tech-stack-right p{
+.tech-stack-right p {
     border-bottom: 1.5px solid var(--color-green);
     padding: 2% 0;
 }
 
-#hero{
+#hero {
     position: relative;
 }
-#hero .icon-box{
+
+#hero .icon-box {
     position: absolute;
     top: 20%;
     left: 15%;
@@ -76,7 +76,7 @@ body {
     z-index: -1;
 }
 
-#hero .icon-code{
+#hero .icon-code {
     position: absolute;
     top: 10%;
     right: 15%;
@@ -85,7 +85,7 @@ body {
     z-index: -1;
 }
 
-#hero .icon-git{
+#hero .icon-git {
     position: absolute;
     bottom: 28%;
     right: 30%;
@@ -94,7 +94,7 @@ body {
     z-index: -1;
 }
 
-#hero .icon-globe{
+#hero .icon-globe {
     position: absolute;
     bottom: 20%;
     left: 30%;
@@ -102,6 +102,49 @@ body {
     color: var(--color-green);
     z-index: -1;
 }
+
+#projects .img-fluid {
+    width: 90%;
+    margin: auto;
+    display: block;
+    aspect-ratio: 1/1;
+}
+
+#projects .course-content a {
+    width: 3rem;
+    height: 3rem;
+    color: var(--color-green);
+    font-size: 1.6rem;
+    background-color: var(--bg-secondery);
+    transition: all 0.4s linear;
+}
+
+#projects .course-content a:hover {
+    background-color: var(--color-green);
+    border-radius: 50%;
+    color: var(--bg-color);
+}
+
+.course-card{
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    border-top: 3px solid var(--bg-color);
+    transition: all 0.5s linear;
+}
+
+.course-card:hover{
+    box-shadow: 0 1.5rem 3rem rgba(255,255,255,0.03);
+    cursor: pointer;
+    border-top: 3px solid var(--color-green);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.course-card .course-content{
+    padding-top: 3rem;
+}
+
 
 
 
