@@ -6,12 +6,14 @@ import './Styles/navbar.css'
 import './Styles/box.css'
 import './Styles/display.css'
 import './Styles/font.css'
+import './Styles/animation.css'
 import {BrowserRouter as Router} from 'react-router-dom'
-import { AppProvider } from './Hooks/Context.jsx'
+import {AppProvider} from './Hooks/Context.jsx'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <AppProvider>
-    <Router>
-      <App />
-    </Router>
+    <AppProvider>
+        <Router>
+            <App/>
+        </Router>
     </AppProvider>
 )
