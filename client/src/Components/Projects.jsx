@@ -12,8 +12,6 @@ const Projects = () => {
                     <div className="grid-4 g-3 mt-5">
                         <CourseCard/>
                         <CourseCard/>
-                        <CourseCard/>
-                        <CourseCard/>
                     </div>
                 </div>
             </section>
