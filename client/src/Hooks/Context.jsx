@@ -16,6 +16,7 @@ const AppProvider = ({children}) => {
     };
 
     // --------------------------------------- End toggle part -------------------------------------------->
+
     const [isLoading, setIsLoading] = useState(true);
     const [isError, setIsError] = useState(false)
     const getApiData = async (url, setFunc) => {
@@ -23,7 +24,6 @@ const AppProvider = ({children}) => {
         setIsError(false);
         try {
             const res = await axios.get(url);
-            console.log(res.data)
             res.data ? setIsLoading(false) : setIsLoading(true)
             res.data.success.length ? setFunc(res.data.success) : setIsError(true);
         } catch (error) {

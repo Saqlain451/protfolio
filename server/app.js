@@ -8,6 +8,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors())
+mongoConnect();
 app.use(projectRouter);
 
 const port = process.env.PORT || 4000;
