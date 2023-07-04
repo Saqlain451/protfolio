@@ -9,7 +9,7 @@ const Navbar = () => {
         <>
             <header className={show ? "show bg-secondery" : "bg-secondery"}>
                 <div className="navbar-logo">
-                    <a href={"#"}><h1 className="text-green fs2-5">Port <span className="text-white">Folio</span></h1>
+                    <a href={"/"}><h1 className="text-green fs2-5">Port <span className="text-white">Folio</span></h1>
                     </a>
                 </div>
                 <nav>

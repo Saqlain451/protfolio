@@ -6,7 +6,8 @@ import './Styles/navbar.css'
 import './Styles/box.css'
 import './Styles/display.css'
 import './Styles/font.css'
-import './Styles/animation.css'
+import './Styles/animation.css';
+import './Styles/button.css'
 import {BrowserRouter as Router} from 'react-router-dom'
 import {AppProvider} from './Hooks/Context.jsx'
 

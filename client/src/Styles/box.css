@@ -417,7 +417,7 @@
 
 .mx-auto {
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .br-0-5{
