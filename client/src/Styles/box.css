@@ -419,3 +419,14 @@
     display: block;
     margin: auto;
 }
+
+.br-0-5{
+    border-radius: .5rem;
+}
+
+.br-1{
+    border-radius: 1rem;
+}
+.br-2{
+    border-radius: 2rem;
+}

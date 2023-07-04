@@ -19,6 +19,7 @@ const AppProvider = ({children}) => {
 
     const [isLoading, setIsLoading] = useState(true);
     const [isError, setIsError] = useState(false)
+    const [projectData,setProjectsData] = useState([])
     const getApiData = async (url, setFunc) => {
         setIsLoading(true);
         setIsError(false);
@@ -33,7 +34,7 @@ const AppProvider = ({children}) => {
 
 
     return (
-        <appContext.Provider value={{show, navToggle,isLoading,isError,getApiData,api}}>
+        <appContext.Provider value={{show, navToggle,isLoading,isError,getApiData,api,projectData,setProjectsData}}>
             {children}
         </appContext.Provider>
     )

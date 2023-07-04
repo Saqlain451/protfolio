@@ -32,7 +32,7 @@ body {
 
 .bg-secondery {
     background-color: var(--bg-secondery);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
 }
 
 .b-secondery {
@@ -104,10 +104,10 @@ body {
 }
 
 #projects .img-fluid {
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: block;
-    aspect-ratio: 1/1;
+    aspect-ratio: 783/800;
 }
 
 #projects .course-content a {
@@ -132,6 +132,7 @@ body {
     padding: 3rem;
     border-top: 3px solid var(--bg-color);
     transition: all 0.5s linear;
+    background-color: var(--bg-secondery);
 }
 
 .course-card:hover{
