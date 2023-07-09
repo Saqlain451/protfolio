@@ -12,6 +12,10 @@
     flex-wrap: wrap;
 }
 
+.align-initial{
+    align-items: initial !important;
+}
+
 .center {
     justify-content: center;
 }

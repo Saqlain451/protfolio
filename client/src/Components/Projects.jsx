@@ -2,7 +2,8 @@ import CourseCard from "./CourseCard.jsx";
 import React, {useEffect} from "react";
 import {useGlobalHook} from "../Hooks/Context.jsx";
 import Title from "./Title.jsx";
-
+import Loader from "./Loader.jsx";
+import Error from "./Error.jsx";
 const Projects = () => {
     const {isLoading, isError, getApiData, api, projectData, setProjectsData} = useGlobalHook()
     useEffect(() => {
@@ -18,14 +19,23 @@ const Projects = () => {
                     dignissimos dolores eius
                     fuga fugit iure laboriosam libero, maiores minus modi provident rem suscipit ut vero vitae
                     voluptas voluptates! Laborum, tenetur?</p>
-                <div className="grid-4 grid-lg-3 grid-md-2 grid-sm-1 g-3 pt-4 pb-5">
-                    {projectData.map((project,id) => {
-                        const {name, image, github, demo, stack} = project
-                        return (<CourseCard name={name} image={image} demo={demo} stack={stack} github={github} key={id}/>)
-                    })}
-                </div>
+
+
+                {isLoading ? <Loader/> : isError ? <Error/> :
+                    <div className="grid-4 grid-lg-3 grid-md-2 grid-sm-1 g-3 pt-4 pb-5">
+                        {projectData.map((project, id) => {
+                            const {name, image, github, demo, stack} = project
+                            return (
+                                <CourseCard name={name} image={image} demo={demo} stack={stack} github={github}
+                                            key={id}/>)
+                        })}
+                    </div>
+                }
+
+
                 <button className="btn btn-success d-block mx-auto fs-1-5 ls-1"><a
-                    href="https://github.com/Saqlain451?tab=repositories" target={"_blank"}>All Projects</a></button>
+                    href="https://github.com/Saqlain451?tab=repositories" target={"_blank"}>All Projects</a>
+                </button>
             </div>
         </section>
     </>)
