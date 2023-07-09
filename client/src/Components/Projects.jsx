@@ -19,9 +19,9 @@ const Projects = () => {
                     fuga fugit iure laboriosam libero, maiores minus modi provident rem suscipit ut vero vitae
                     voluptas voluptates! Laborum, tenetur?</p>
                 <div className="grid-4 grid-lg-3 grid-md-2 grid-sm-1 g-3 pt-4 pb-5">
-                    {projectData.map((project) => {
+                    {projectData.map((project,id) => {
                         const {name, image, github, demo, stack} = project
-                        return (<CourseCard name={name} image={image} demo={demo} stack={stack} github={github}/>)
+                        return (<CourseCard name={name} image={image} demo={demo} stack={stack} github={github} key={id}/>)
                     })}
                 </div>
                 <button className="btn btn-success d-block mx-auto fs-1-5 ls-1"><a

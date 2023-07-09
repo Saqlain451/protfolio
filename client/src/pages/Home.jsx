@@ -4,6 +4,7 @@ import TechStack from "../Components/TechStack.jsx";
 import Projects from "../Components/Projects.jsx";
 import Testimonial from "../Components/Testimonial.jsx";
 import Faq from "../Components/Faq.jsx";
+import Contact from "../Components/Contact.jsx";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Projects/>
             <Testimonial/>
             <Faq/>
+            <Contact/>
         </>
     )
 }

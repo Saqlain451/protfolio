@@ -1,0 +1,31 @@
+label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding:  1rem;
+}
+#contact input, #contact textarea{
+    height: 4.3rem;
+    background: #1b1b1b;
+    border: 0.15rem solid var(--color-green);
+}
+
+#contact textarea{
+    height: 18rem;
+    padding: 2rem ;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: var(--box-shadow2);
+}
+
+#contact button{
+    border:none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+

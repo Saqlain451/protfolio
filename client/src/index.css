@@ -12,6 +12,7 @@
     --color-green: #09e85e;
     --bg-color: #1b1b1b;
     --box-shadow: 0 0 14px 2px #09e85e;
+    --box-shadow2: 0 0 5px 2px #09e85e ;
     --bg-secondery: rgba(255, 255, 255, 0.03);
 }
 
@@ -19,6 +20,7 @@ html {
     font-size: 62.5%;
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
+    user-select: none;
 }
 
 body {

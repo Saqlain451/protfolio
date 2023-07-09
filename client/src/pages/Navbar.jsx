@@ -30,7 +30,7 @@ const Navbar = () => {
                             <a href="#faq" className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>FAQs</a>
                         </li>
                         <li className={"contact"}>
-                            <a href={"/"} className={"fs-1-5 navbar-link"} onClick={navToggle}>Get in
+                            <a href={"#contact"} className={"fs-1-5 navbar-link"} onClick={navToggle}>Get in
                                 touch</a>
                         </li>
                     </ul>

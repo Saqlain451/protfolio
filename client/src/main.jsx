@@ -8,6 +8,7 @@ import './Styles/display.css'
 import './Styles/font.css'
 import './Styles/animation.css';
 import './Styles/button.css'
+import './Styles/form.css'
 import {BrowserRouter as Router} from 'react-router-dom'
 import {AppProvider} from './Hooks/Context.jsx'
 
