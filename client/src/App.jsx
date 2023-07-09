@@ -10,6 +10,7 @@ const App = () => {
             <Navbar/>
             <Routes>
                 <Route index element={<Home/>}/>
+                <Route path={"*"} element={<Home/>}/>
             </Routes>
             <Footer/>
         </>
