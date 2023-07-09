@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <div className="pt-5 pb-5 p-10">
-                <div className="d-flex space-between">
+                <div className="d-flex space-between flex-wrap">
                     <h1 className={"d-flex text-green fs-3 g-0-5"}>Port <span className={"text-white"}>Folio</span></h1>
                     <div className="d-flex g-3">
                         <a href="https://github.com/Saqlain451" target={"_blank"}  className={"fs-2-8 text-secondary"}><AiFillGithub/></a>
