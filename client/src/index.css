@@ -145,8 +145,20 @@ body {
 .course-card .course-content{
     padding-top: 3rem;
 }
+.testimonial-card{
+    padding: 2rem;
+    border-radius: 0.7rem;
+}
 
+.testimonial-card .card-img{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
 
+.carousel-item-padding-40-px {
+    padding: 0 1rem 3rem 0rem ; /* Adjust the value to increase or decrease the gap */
+}
 
 
 

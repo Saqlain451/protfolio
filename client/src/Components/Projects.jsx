@@ -1,6 +1,7 @@
 import CourseCard from "./CourseCard.jsx";
 import React, {useEffect} from "react";
 import {useGlobalHook} from "../Hooks/Context.jsx";
+import Title from "./Title.jsx";
 
 const Projects = () => {
     const {isLoading, isError, getApiData, api, projectData, setProjectsData} = useGlobalHook()
@@ -10,9 +11,7 @@ const Projects = () => {
     return (<>
         <section id="projects">
             <div className="p-10">
-                <div className="d-flex center">
-                    <span className="pt-1 pb-1 pl-3 pr-3 bg-secondery br-0-5 text-green ls-1">PROJECTS</span>
-                </div>
+                <Title title={"PROJECTS"}/>
                 <h1 className="fs-4 fw-4 mt-4">My Skills and Projects</h1>
                 <p className="fs-1-5 text-dark mt-2 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Deleniti

@@ -19,6 +19,24 @@ header ul {
 .navbar-link:hover {
     color: var(--color-green);
 }
+.contact{
+    width: 14rem;
+    height: 4.3rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    transition: 0.3s all linear;
+    cursor: pointer;
+}
+.contact a{
+    color: #1b1b1b;
+    font-weight: bold;
+}
+.contact:hover{
+    box-shadow: var(--box-shadow);
+}
 
 header button {
     display: none;

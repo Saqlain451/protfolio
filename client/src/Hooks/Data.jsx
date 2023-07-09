@@ -31,5 +31,61 @@ const tectStackData = [
     },
 ]
 
+const testimonialData = [
+    {
+        id: 1,
+        img: "https://i.postimg.cc/GmxvR1J1/biplab.jpg",
+        name: "Biplab Shrama",
+        role: "Backend Developer",
+        des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore enim incidunt non numquam, provident sint soluta tempora.A amet deserunt, dolor fugiat non officiis rem repellat veniam? Accusamus, placeat."
+    },
+    {
+        id: 2,
+        img: "https://i.postimg.cc/2SXqx8CT/jyoti.jpg",
+        name: "Jyoti Sharma",
+        role: "Game Developer",
+        des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore enim incidunt non numquam, provident sint soluta tempora.A amet deserunt, dolor fugiat non officiis rem repellat veniam? Accusamus, placeat."
+    },
+    {
+        id: 3,
+        img: "https://assets.website-files.com/63f3212748a58b8bb6c65a69/63ff4cb11421c26c68095023_Ellipse%203.png",
+        des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore enim incidunt non numquam, provident sint soluta tempora.A amet deserunt, dolor fugiat non officiis rem repellat veniam? Accusamus, placeat.",
+        name: "Esther Hovered",
+        role: "Gamer",
+    }, {
+        id: 4,
+        img: "https://assets.website-files.com/63f3212748a58b8bb6c65a69/63ff4c84e55eb62d644c2073_Ellipse%203-2.png",
+        des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore enim incidunt non numquam, provident sint soluta tempora.A amet deserunt, dolor fugiat non officiis rem repellat veniam? Accusamus, placeat.",
+        name: "Esther Hovered",
+        role: "Client",
+    },
+    {
+        id:5,
+        img:"https://media.licdn.com/dms/image/C5103AQFrdqFZ5F0QWQ/profile-displayphoto-shrink_100_100/0/1516802470571?e=1691020800&v=beta&t=EF5Y6I34-JiNkiZBvh1fS8lO-QF0JycDTZWVOPDbepg",
+        des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolore enim incidunt non numquam, provident sint soluta tempora.A amet deserunt, dolor fugiat non officiis rem repellat veniam? Accusamus, placeat.",
+        name : "John Thomas",
+        role: "Tech Trainer",
+    }
+]
 
-export {tectStackData};
+
+const responsive = {
+    superLargeDesktop: {
+        breakpoint: {max: 4000, min: 3000},
+        items: 4
+    },
+    desktop: {
+        breakpoint: {max: 3000, min: 1024},
+        items: 3
+    },
+    tablet: {
+        breakpoint: {max: 1024, min: 464},
+        items: 2
+    },
+    mobile: {
+        breakpoint: {max: 464, min: 0},
+        items: 1
+    }
+};
+
+export {tectStackData, responsive,testimonialData};

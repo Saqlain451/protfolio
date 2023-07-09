@@ -15,16 +15,23 @@ const Navbar = () => {
                 <nav>
                     <ul className="navbar-list">
                         <li>
-                            <a href={"#techstack"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>TechStack</a>
+                            <a href={"#techstack"} className={"text-dark fs-1-5 navbar-link"}
+                               onClick={navToggle}>TechStack</a>
                         </li>
                         <li>
-                            <a href={"#projects"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Projects</a>
+                            <a href={"#projects"} className={"text-dark fs-1-5 navbar-link"}
+                               onClick={navToggle}>Projects</a>
                         </li>
                         <li>
-                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Testimonial</a>
+                            <a href={"#testimonial"} className={"text-dark fs-1-5 navbar-link"}
+                               onClick={navToggle}>Testimonial</a>
                         </li>
                         <li>
-                            <a href={"/"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>Contact</a>
+                            <a href="#faq" className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>FAQs</a>
+                        </li>
+                        <li className={"contact"}>
+                            <a href={"/"} className={"fs-1-5 navbar-link"} onClick={navToggle}>Get in
+                                touch</a>
                         </li>
                     </ul>
                 </nav>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Stat from "./Stat.jsx";
+import Title from "./Title.jsx";
 
 
 const TechStack = () => {
@@ -37,9 +38,7 @@ const TechStack = () => {
                 {/*</div>*/}
                 {/*todo -------------- Select any one which is looking realy good ------------------>*/}
                 <div className="p-10">
-                    <div className="d-flex center">
-                        <span className="pt-1 pb-1 pl-3 pr-3 bg-secondery br-0-5 text-green ls-1">TECH STACK</span>
-                    </div>
+                    <Title title={"TECH STACK"} />
                     <h1 className="text-white text-center fs-4 mt-3 fw-4">Technologies I work with</h1>
                     <p className="fs-1-5 mt-2 text-dark lh-2 pr-10 pl-10">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit.
