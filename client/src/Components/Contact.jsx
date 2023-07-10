@@ -1,20 +1,13 @@
-import {useState} from 'react';
+
 import {AiOutlineMail} from "react-icons/ai";
 import {IoCallSharp} from "react-icons/io5";
+import {useForm, ValidationError} from "@formspree/react";
 
 
 const Contact = () => {
-    const [inpData, setInpData] = useState({
-        name: "",
-        mail: "",
-        msg: "",
-    })
-    const handleChange = (e) => {
-        const {name, value} = e.target;
-        setInpData({...inpData, [name]: value});
-    }
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const [state, handleSubmit] = useForm("xyyqypqq");
+    if (state.succeeded) {
+        return <p className={"text-center text-dark fs-2 pt-4 pb-4 "}>Thanks for joining with us!</p>;
     }
     return (
         <>
@@ -31,16 +24,43 @@ const Contact = () => {
                     </div>
                     <form onSubmit={handleSubmit}>
                         <label htmlFor="" className={"fs-1-5 fw-3"}> Name</label>
-                        <input type="text" name="name" value={inpData.name} onChange={handleChange}
-                               className={"form-control text-dark"}/>
-
+                        <input
+                            id="email"
+                            type="text"
+                            name="Name"
+                            className={"form-control text-dark"}
+                        />
+                        <ValidationError
+                            prefix="Name"
+                            field="Name"
+                            errors={state.errors}
+                        />
                         <label htmlFor="" className={"fs-1-5 fw-3 mt-5"}> Email</label>
-                        <input type="text" name="mail" value={inpData.mail} onChange={handleChange}
-                               className={"form-control text-dark"}/>
+
+                        <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            className={"form-control text-dark"}
+                        />
+                        <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                        />
 
                         <label htmlFor="" className={"fs-1-5 fw-3 mt-5"}> Message</label>
-                        <textarea name="msg" cols="30" rows="10" value={inpData.msg} onChange={handleChange}
-                                  className={"form-control text-dark"}></textarea>
+                        <textarea
+                            id="message"
+                            name="message"
+                            className = {"form-control text-dark"}
+                        />
+                        <ValidationError
+                            prefix="Message"
+                            field="message"
+                            errors={state.errors}
+
+                        />
 
                         <button className={"contact mt-5 fs-1-5"}>Submit</button>
                     </form>
