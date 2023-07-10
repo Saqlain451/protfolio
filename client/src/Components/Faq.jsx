@@ -1,9 +1,10 @@
-
 import Title from "./Title.jsx";
 import {qna} from "../Hooks/Data.jsx";
 import FaqComp from "./FaqComp.jsx";
 
+
 const Faq = () => {
+
 
     return (<>
         <section id="faq">

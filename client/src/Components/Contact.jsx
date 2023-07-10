@@ -4,11 +4,15 @@ import {IoCallSharp} from "react-icons/io5";
 import {useForm, ValidationError} from "@formspree/react";
 
 
+
 const Contact = () => {
+
     const [state, handleSubmit] = useForm("xyyqypqq");
     if (state.succeeded) {
         return <p className={"text-center text-dark fs-2 pt-4 pb-4 "}>Thanks for joining with us!</p>;
     }
+
+
     return (
         <>
             <section id="contact">
