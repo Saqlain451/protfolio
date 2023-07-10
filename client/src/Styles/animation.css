@@ -1,0 +1,38 @@
+.fade-animation {
+    animation: fade 15s linear infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        box-shadow: none;
+    }
+    75% {
+        box-shadow: var(--box-shadow);
+    }
+}
+
+.down-animation {
+    animation: down 2s linear infinite;
+}
+
+@keyframes down {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(15%);
+    }
+}
+
+.side-animation {
+    animation: side 3s linear infinite;
+}
+
+@keyframes side {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(20%);
+    }
+}
