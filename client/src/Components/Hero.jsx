@@ -1,4 +1,4 @@
-import React from "react";
+// eslint-disable-next-line no-unused-vars
 import {BsArrowDown, BsCodeSlash} from 'react-icons/bs'
 import {VscGlobe} from 'react-icons/vsc'
 import {BiGitBranch} from 'react-icons/bi'
@@ -20,13 +20,9 @@ const Hero = () => {
                         />
                     </div>
                 </div>
-                <h1 className="mt-3 fs-5 text-center">The Art of Web Development</h1>
-                <p className="fs-1-5 pl-10 pr-10 mt-2 lh-2 text-center">
-                    Lorem ipsum dolor sit amet consecrate radicalising elite. Justo,
-                    paginator delegates voluptuary ill ipsum dolores consequent a
-                    liquid valid cisgendered common repudiate ration event maxime
-                    cum doldrums deque nam voluptuary.
-                </p>
+                <h1 className="mt-3 fs-5 text-center ml-10 mr-10 pl-5 pr-5 fw-6">Hi👋, My name is <span
+                    className={"text-green"}>Sakil</span> <br/> and i
+                    am a passionate <br/> <span className={"typing-text text-green"}>Web Developer</span></h1>
                 <p className={"text-center text-dark mt-4 fs-1-5"}>Scroll down</p>
                 <p className={"fs-4 text-green text-center mt-2 down-animation"}><BsArrowDown/></p>
                 <p className="icon-code side-animation"><BsCodeSlash/></p>

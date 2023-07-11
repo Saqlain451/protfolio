@@ -15,11 +15,10 @@ const Projects = () => {
             <div className="p-10">
                 <Title title={"PROJECTS"}/>
                 <h1 className="fs-4 fw-4 mt-4">My Skills and Projects</h1>
-                <p className="fs-1-5 text-dark mt-2 lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Deleniti
-                    dignissimos dolores eius
-                    fuga fugit iure laboriosam libero, maiores minus modi provident rem suscipit ut vero vitae
-                    voluptas voluptates! Laborum, tenetur?</p>
+                <p className="fs-1-5 text-dark mt-2 lh-2">Welcome to my portfolio projects section, where I showcase a
+                    selection of my web development projects. These projects reflect my skills and expertise in creating
+                    dynamic and engaging web applications. For a comprehensive view of my work, please visit my GitHub
+                    profile, where you can explore my full collection of projects</p>
 
 
                 {isLoading ? <Loader/> : isError ? <Error/> :

@@ -36,14 +36,17 @@ const TechStack = () => {
                 {/*        </div>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
-                {/*todo -------------- Select any one which is looking realy good ------------------>*/}
+
+                {/* todo -------------- Select any one which is looking really good ------------------>*/}
                 <div className="p-10">
                     <Title title={"TECH STACK"}/>
                     <h1 className="text-white text-center fs-4 mt-3 fw-4">Technologies I work with</h1>
-                    <p className="fs-1-5 mt-2 text-dark lh-2 pr-10 pl-10">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.
-                        Et hic illo ipsa ipsam ipsum laudantium, nostrum quo reiciendis repudiandae suscipit veniam
-                        vitae voluptate! Eveniet explicabo hic molestias quaerat qui temporibus!</p>
+                    <p className="mt-2 text-dark lh-2 pl-2 pr-2" style={{fontSize:"1.2rem"}}>
+                        I use HTML, CSS, JavaScript, and React JS to create engaging and responsive user interfaces for
+                        web applications. I also use Node.js and Express.js to develop efficient and scalable
+                        server-side logic. I store and manage data with MongoDB. This tech stack allows me to deliver
+                        high-quality, end-to-end web solutions.
+                    </p>
                     <div className="d-flex center mt-3 g-2 flex-wrap">
                         <img
                             src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
