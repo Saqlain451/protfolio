@@ -16,7 +16,7 @@ const Testimonial = () => {
     return (
         <>
             <section id="testimonial">
-                <div className="p-10">
+                <div className="p-10 pr-md-5 pr-md-5 pl-sm-5 pr-sm-5">
                     <Title title={"TESTIMONIALS"}/>
                     <div className="pt-6">
 

@@ -8,7 +8,7 @@ const Faq = () => {
 
     return (<>
         <section id="faq">
-            <div className="p-10">
+            <div className="p-10 pr-md-5 pr-md-5 pl-sm-5 pr-sm-5">
                 <Title title={"FAQS"}/>
                 <div className={"pt-5"}>
                     {qna.map((ele) => {

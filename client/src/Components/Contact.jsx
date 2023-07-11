@@ -16,7 +16,7 @@ const Contact = () => {
     return (
         <>
             <section id="contact">
-                <div className="p-10 grid-2 grid-sm-1 g-3 align-initial">
+                <div className="p-10 grid-2 grid-sm-1 g-3 align-initial pr-md-5 pr-md-5 pl-sm-5 pr-sm-5">
                     <div>
                         <h1 className={"fs-5 fw-4"}>Get in touch</h1>
                         <p className={"fs-2 text-dark lh-2 mt-8 mb-8"}>Drop me a line, give me a call, or send me a

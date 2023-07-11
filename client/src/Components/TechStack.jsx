@@ -38,7 +38,7 @@ const TechStack = () => {
                 {/*</div>*/}
 
                 {/* todo -------------- Select any one which is looking really good ------------------>*/}
-                <div className="p-10">
+                <div className="p-10 pr-md-5 pr-md-5 pl-sm-1 pr-sm-1">
                     <Title title={"TECH STACK"}/>
                     <h1 className="text-white text-center fs-4 mt-3 fw-4">Technologies I work with</h1>
                     <p className="mt-2 text-dark lh-2 pl-2 pr-2" style={{fontSize:"1.2rem"}}>

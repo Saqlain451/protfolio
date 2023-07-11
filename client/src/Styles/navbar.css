@@ -53,10 +53,11 @@ header button {
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         visibility: hidden;
         opacity: 0;
         transition: 0.4s all linear;
+        overflow: hidden;
     }
 
     header ul {
@@ -78,7 +79,7 @@ header button {
     }
 
     .show nav {
-        transform: translateX(0%);
+        transform: translateY(0%);
         visibility: visible;
         opacity: 1;
     }

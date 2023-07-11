@@ -12,7 +12,7 @@ const Projects = () => {
     }, [])
     return (<>
         <section id="projects">
-            <div className="p-10">
+            <div className="p-10 pr-md-5 pr-md-5 pl-sm-5 pr-sm-5">
                 <Title title={"PROJECTS"}/>
                 <h1 className="fs-4 fw-4 mt-4">My Skills and Projects</h1>
                 <p className="fs-1-5 text-dark mt-2 lh-2">Welcome to my portfolio projects section, where I showcase a
@@ -22,7 +22,7 @@ const Projects = () => {
 
 
                 {isLoading ? <Loader/> : isError ? <Error/> :
-                    <div className="grid-4 grid-lg-3 grid-md-2 grid-sm-1 g-3 pt-4 pb-5">
+                    <div className="grid-4 grid-lg-3 grid-md-2 grid-sm-1 g-3 pt-4 pb-5 ">
                         {projectData.map((project, id) => {
                             const {name, image, github, demo, stack} = project
                             return (
