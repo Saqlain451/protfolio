@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import projectRouter from "./Routes/projectRoutes.js";
 import mongoConnect from "./Db/Connect.js";
+import mailRouter from "./Routes/mailRouter.js";
 import cors from 'cors'
 
 dotenv.config();
@@ -10,6 +11,7 @@ app.use(express.json());
 app.use(cors())
 mongoConnect();
 app.use(projectRouter);
+app.use(mailRouter);
 
 
 const port = process.env.PORT || 4000;
