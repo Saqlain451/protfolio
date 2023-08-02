@@ -20,7 +20,7 @@ header ul {
     position: relative;
 }
 
-.navbar-list li::after{
+.navbar-list li:not(:last-child)::after{
     content: "";
     position: absolute;
     background: var(--color-green);
