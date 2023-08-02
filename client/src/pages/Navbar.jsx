@@ -27,7 +27,7 @@ const Navbar = () => {
                                onClick={navToggle}>Testimonial</a>
                         </li>
                         <li>
-                            <a href="#faq" className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>FAQs</a>
+                            <a href={"#faq"} className={"text-dark fs-1-5 navbar-link"} onClick={navToggle}>FAQs</a>
                         </li>
                         <li className={"contact"}>
                             <a href={"#contact"} className={"fs-1-5 navbar-link"} onClick={navToggle}>Get in
